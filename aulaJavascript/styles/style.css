@@ -1,0 +1,84 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 60px;
+  line-height: 50px;
+  text-align: center;
+  
+}
+
+h1:active{
+
+  animation: mudatamanho 1s infinite;
+    
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+html {
+  background-color: #00539F;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  margin: 0 auto;
+  
+}
+img:active {
+  
+
+animation: mudatamanho2 6s infinite;
+  
+}
+
+@keyframes mudatamanho {
+
+  60%{
+    font-size: 0px;
+
+  }
+  0% {
+    font-size: 50px;
+  }
+  
+}
+@keyframes mudatamanho2 {
+
+  100%{
+    width: 60%;
+    height: 60%;
+
+  }
+  0% {
+    width: 60%;
+    height: 60%;
+  }
+  
+}
+
