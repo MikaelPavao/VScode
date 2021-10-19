@@ -23,6 +23,16 @@ img#logo{
     ;
 }
 /*Configura os estilos do menu*/
+@keyframes go-back {
+    from {
+        
+        
+    }
+    to {
+        
+        color:  rgb(106, 196, 246);
+    }
+  }
 nav#menu {
 
     display: block;
@@ -47,10 +57,10 @@ nav#menu a{
     font-family: Arial, Helvetica, sans-serif;
 }
 nav#menu a:hover {
-
-    background-color: white;
-    color:  rgb(106, 196, 246);
-    box-shadow: 0px 4px 2px white;
+        box-shadow: 0px 4px 2px white;
+        background-color: white;
+        color: rgb(106, 196, 246);
+    
 }
 
 a#li_esq {
