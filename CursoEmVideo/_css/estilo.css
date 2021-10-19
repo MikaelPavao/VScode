@@ -7,8 +7,15 @@ p {
 }
 body{
 
-    background-color: white;
+    background-color: rgb(100, 100, 100);
     color: rgba(red, green, blue, alpha);
+}
+div#interface {
+
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,.4);
 }
 /*define a formatação de imagens com legendas*/
 figure.foto-legenda{
@@ -40,3 +47,49 @@ figure.foto-legenda figcaption:hover {
 
         opacity: 1;
 }
+
+/*Define as configurações do menu*/
+nav#menu{
+
+    display: block;
+
+}
+nav#menu h1{
+
+    display: none;
+}
+nav#menu ul{
+
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top: -20px;
+    left: 100px;
+
+}
+
+nav#menu li{
+
+    display: inline-block;
+    background-color: rgb(151, 150, 150);
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+nav#menu li:hover{
+
+    background-color: rgb(75, 75, 75);
+}
+nav#menu a {
+
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+    font-family: Verdana, sans-serif;
+
+}
+nav#menu a:hover{
+
+    color: white;
+}
+
