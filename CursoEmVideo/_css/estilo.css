@@ -1,8 +1,13 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
+@font-face {
+    font-family: "Fonte-mikael";
+    src: url("../_fonts/computer-font.ttf");
+}
 
-p {
+div#interface p {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial", Helvetica, sans-serif;
     text-indent: 50px;
     text-align: justify;
 }
@@ -17,6 +22,7 @@ div#interface {
     background-color: white;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0,.4);
+    padding: 10px;
 }
 /*define a formatação de imagens com legendas*/
 figure.foto-legenda{
@@ -93,4 +99,65 @@ nav#menu a:hover{
 
     color: white;
 }
+/*configura o posicionamento das figuras e cabeçalho*/
+header#cabecalho h1{
 
+    font-family: 'IBM Plex Mono', monospace;
+    color: grey;
+    font-size: 30p;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+
+    font-family: 'IBM Plex Mono', monospace;
+    color: grey;
+    font-size: 30p;
+    padding: 0px;
+    margin-top: 0px;
+}
+header#cabecalho{
+
+    border-bottom: 1px rgb(48, 48, 48) solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+    
+}
+header#cabecalho img#icone{
+    position: absolute;
+    left: 890px;
+    top: 70px;
+}
+/*Configuração da area de conteúdo*/
+section#corpo{
+    display: block;
+    float: left;
+    width: 520px;
+    border-right: 1px solid rgb(75, 75, 75);
+    padding-right: 15px;
+
+}
+aside#conteudolateral{
+    display: block;
+    float: right;
+    width: 350px;
+    
+
+}
+
+footer#rodape{
+        
+    border-top: 1px solid rgb(75, 75, 75);
+    clear: both;
+    
+}
+
+footer#rodape p{
+
+    text-align: center;
+}
+footer#rodape a{
+
+    text-align: center;
+}
